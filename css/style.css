@@ -1,0 +1,35 @@
+:root {
+    --colorprimario: #E5D9F2;
+    --colorsecundo: #F5EFFF;
+    --colortercero: #CDC1FF;
+    --colorcuarto: #A594F9;
+
+    --letrasblancas: #fff;
+    --fuente: 'Eczar', cursive;
+}
+body {
+    background-color: var(--colortercero)
+}
+
+h1, p {
+    font-family: var(--fuente);
+}
+.encabezado {
+    background-color: var(--colorcuarto);
+    padding: 1rem 0;
+}
+.encabezado__tema {
+    text-align: center;
+}
+.aprendi {
+    text-align: center;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.modo-oscuro {
+    background-color: #333;
+    color: white;
+}
